@@ -1,2 +1,2 @@
 # Python-mit-Niggi-und-Lulu
-Python mit Niclas und Louis
+Python mit Niclas(UWU) und Louis

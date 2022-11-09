@@ -1,0 +1,10 @@
+import random
+
+
+x = list
+x=[]
+
+word = "pene"
+for character in word:
+    x.append(random.randint(6, 9))
+print(x)

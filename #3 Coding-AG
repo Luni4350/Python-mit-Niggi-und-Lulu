@@ -1,0 +1,9 @@
+import random
+figuren = ["Schere", "Stein", "Papier"]
+niggi = input("Schere, Stein, Papier")
+choice = print(random.choice(figuren))
+if niggi == "Schere" or "Stein" or "Papier":
+    print(choice)
+if niggi == "Schere":
+    print(choice) 
+    print("Du hast verloren")

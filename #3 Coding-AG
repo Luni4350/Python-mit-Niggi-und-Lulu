@@ -7,3 +7,7 @@ if niggi == "Schere" or "Stein" or "Papier":
 if niggi == "Schere":
     print(choice) 
     print("Du hast verloren")
+
+
+
+bald weiter machen

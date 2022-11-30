@@ -1,0 +1,21 @@
+import turtle 
+import time 
+t = turtle.Turtle()
+
+for egal in range(0, 10):
+    t.forward(10)
+    t.left(36)
+t.right(180)
+t.forward(25)
+for egal in range(0, 10):
+    t.forward(10)
+    t.right(36)
+t.right(180)
+t.forward(10)
+t.left(90)
+t.forward(200)
+t.right(90)
+t.forward(5)
+t.right(90)
+t.forward(200)
+time.sleep(2)

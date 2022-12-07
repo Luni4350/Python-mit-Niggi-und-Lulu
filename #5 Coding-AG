@@ -1,0 +1,101 @@
+#pene
+
+import turtle 
+import time 
+t = turtle.Turtle()
+
+for egal in range(0, 10):
+    t.forward(10)
+    t.left(36)
+t.right(180)
+t.forward(50)
+for egal in range(0, 10):
+    t.forward(10)
+    t.right(36)
+t.right(180)
+t.forward(10)
+t.left(90)
+t.forward(200)
+t.right(90)
+t.forward(30)
+t.right(90)
+t.forward(200)
+
+
+
+t.sleep(2)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#I
+import turtle
+import time
+
+t = turtle.Turtle()
+
+t.hideturtle()
+t.speed(6)
+for lol in (0, 2):
+    t.left(90)
+    t.forward(200)
+    t.left(90)
+    t.forward(10)
+time.sleep(2)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#N
+import turtle
+import time
+
+t = turtle.Turtle()
+
+t.hideturtle()
+t.speed(6)
+
+t.left(90)
+t.forward(200)
+t.right(90)
+t.forward(10)
+t.right(55)
+t.forward(250)
+t.left(145)
+t.forward(200)
+t.right(90)
+t.forward(10)
+t.right(90)
+t.forward(210)
+time.sleep(2)

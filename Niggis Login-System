@@ -1,0 +1,30 @@
+
+#Konto erstellen
+eingabe = " "
+erstellen = input("Möchten Sie ein neues Konto erstellen? ")
+if erstellen == "ja":
+    nameKonto = input("Wie soll ihr neues Konto heißen? ")
+    passwortKonto = input("Wie soll ihr Passwort lauten? ")
+print("Ihr neu eröffnetes Konto heißt: " + nameKonto)
+bestätigt = input("Ihr Passwort lautet: " + "Zum Anzeigen JA schreiben ")
+if bestätigt == "JA":
+    print("Ihr Passwort lautet: " + passwortKonto)
+if erstellen == "nein":
+    print("Auf wiedersehen! ")
+
+
+
+
+
+
+#Mit Konto einloggen
+    einlog = input("Guten Tag,möchten sie sich einloggen? ")
+    if einlog == "ja":
+     konto = input("Mit welchem Konto möchten Sie sich einloggen? ")
+    if konto == nameKonto:
+        while eingabe != passwortKonto:
+            print()
+            eingabe = input("Passwort bitte! ")
+        print("Richtig!")
+    if einlog == "nein":
+        print("Tschö mit Ö")

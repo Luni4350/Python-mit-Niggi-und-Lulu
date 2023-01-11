@@ -1,16 +1,22 @@
+
 eingabe = " "
 
 einlog = input("Guten Tag,möchten sie sich einloggen? ")
 if einlog == "ja":
+    konto = input("Mit welchem Konto möchten Sie sich einloggen? ")
+    if konto == "johannes":
+
     
 
 
 
-    while eingabe != "uluru":
-        print()
-        eingabe = input("Passwort bitte! ")
-    print("Richtig!")
-if einlog == "nein":
-    print("Tschö mit Ö")
-    
+        while eingabe != "uluru":
+            print()
+            eingabe = input("Passwort bitte! ")
+        print("Richtig!")
+    if einlog == "nein":
+        print("Tschö mit Ö")
+
+    else:
+
     

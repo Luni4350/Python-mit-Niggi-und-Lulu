@@ -1,0 +1,16 @@
+eingabe = " "
+
+einlog = input("Guten Tag,möchten sie sich einloggen? ")
+if einlog == "ja":
+    
+
+
+
+    while eingabe != "uluru":
+        print()
+        eingabe = input("Passwort bitte! ")
+    print("Richtig!")
+if einlog == "nein":
+    print("Tschö mit Ö")
+    
+    
